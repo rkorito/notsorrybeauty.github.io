@@ -9,11 +9,27 @@
 	
 }
 
+h1 {
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+h2 {
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-top: 11em;
+	margin-left: 13.5em;
+	color: #000;
+	font-weight: lighter;
+	
+}
+
 nav {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: lighter;
 	padding-top: 65px;
-	padding-left: 328px;
+	margin-left: 328px;
 }
 
 nav a {
@@ -39,7 +55,7 @@ nav li {
 nav li + li:before{
     content: " | ";
     padding: 0 10px;
-	color: lightpink;
+	color: #F6B1CF;
 }
 
 
@@ -73,6 +89,7 @@ menu {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	float: left;
 }
 
 menu li {
@@ -89,4 +106,29 @@ menu li {
 	padding-left: 200px;
 	margin: 0;
 	float: right;
+}
+
+.box1 {
+	float: right;
+	padding-top: 1em;
+	padding-left: 4em;
+}
+
+.about {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-top: 35px;
+}
+
+.group{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-top: 35px;
+}
+
+p {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
 }
