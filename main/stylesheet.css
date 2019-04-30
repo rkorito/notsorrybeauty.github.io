@@ -25,6 +25,120 @@ h2 {
 	
 }
 
+.contactbox {
+	background-color: #F6B1CF;
+}
+
+.productheader {
+	font-size: 25px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #000;
+	font-weight: 900;
+	padding-top: 65px;
+}
+
+.pinksub {
+	color: #F6B1CF;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+.para {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+.rectangle {
+	height: 40px;
+	width: 125px;
+	background-color: #000;
+	align-items: center;
+	padding-left: 22px;
+	color: #fff;
+	display: flex;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+
+}
+
+.sw1 {
+	height: 40px;
+	width: 40px;
+	background-color: #953864;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw2 {
+	height: 40px;
+	width: 40px;
+	background-color: #BE86A0;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw3 {
+	height: 40px;
+	width: 40px;
+	background-color: #ED4681;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw4 {
+	height: 40px;
+	width: 40px;
+	background-color: #EB2227;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw5 {
+	height: 40px;
+	width: 40px;
+	background-color: #A22037;
+	float: left;
+}
+
+.sw6 {
+	height: 40px;
+	width: 40px;
+	background-color: #D1BEB8;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw7 {
+	height: 40px;
+	width: 40px;
+	background-color: #B89F78;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw8 {
+	height: 40px;
+	width: 40px;
+	background-color: #B99E62;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw9 {
+	height: 40px;
+	width: 40px;
+	background-color: #8C6832;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw10 {
+	height: 40px;
+	width: 40px;
+	background-color: #7B6442;
+	float: left;
+}
+
 nav {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: lighter;
@@ -58,6 +172,9 @@ nav li + li:before{
 	color: #F6B1CF;
 }
 
+nav a:hover {
+	color: #F6B1CF;
+}
 
 .content {
   max-width: 1000px;
@@ -74,46 +191,63 @@ nav li + li:before{
 	padding-top: 10px;
 }
 
-.menuheader {
-	font-weight: bold;
-	font-size: 120%;
-	color: #000;
-	padding-bottom: 9px;
-	
-}
-
-menu {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: lighter;
-	max-width: 150px;
-	margin: 0;
-	padding: 0;
-	text-align: center;
+.productimage {
+	padding-top: px;
 	float: left;
 }
 
-menu li {
+.menu-container {
+  
+ float: left;
+}
+
+.menuli {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	font-size: 100%;
+	background-color: #eee;
+	border: 3px solid #fff;
+	width: 200px;
+	padding: 15px;
+	padding-left: 20px;
 	text-decoration: none;
 	list-style-type: none;
-	display: block;
-	font-size: 100%;
-	display: block;
-	color: #000;
-	padding: 5px;
 }
 
-.lips {
-	padding-left: 200px;
-	margin: 0;
-	float: right;
+menu li:hover {
+	color: #F6B1CF;
+	text-decoration: none;
 }
 
-.box1 {
-	float: right;
-	padding-top: 1em;
-	padding-left: 4em;
+menu a:visited {
+	color: #F6B1CF;
+	text-decoration: none;
+	list-style-type: none;
 }
 
+menu a:link {
+	color: #F6B1CF;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+menu li:link {
+	color: #F6B1CF;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.flex-container < div {
+text-align: center;
+	
+}
 .about {
  display: block;
   margin-left: auto;
@@ -132,3 +266,5 @@ p {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: lighter;
 }
+
+
