@@ -1,0 +1,586 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.logo {
+	width: 100;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	
+}
+
+h1 {
+	margin-top: 50px;
+	padding-left: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	width: 50%;
+}
+
+h2 {
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-top: 11em;
+	margin-left: 13.5em;
+	color: #000;
+	font-weight: lighter;
+	
+}
+
+.subheader {
+	margin-top: 40px;
+	padding-left: 30px;
+	background-color: #eee;
+	padding-top: 25px;
+	height: 50px;
+	width: 966px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	font-size: 150%;
+	color: 000;
+	text-align: center;
+}
+
+.subheader0 {
+	margin-top: 10px;
+	padding-left: 30px;
+	background-color: #eee;
+	padding-top: 20px;
+	height: 50px;
+	width: 966px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	font-size: 150%;
+	color: 000;
+	text-align: center;
+}
+
+.subcap1 {
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: bold;
+	color: #818181;
+}
+
+.subcap2 {
+	color: #F6B1CF;
+	text-align: center;
+	font-weight: lighter;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #F6B1CF;
+}
+
+table {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: light;
+	margin: auto;
+	
+}
+
+caption {
+	font-weight: bold;
+	padding-top: 20px;
+	color: #F6B1CF;
+}
+
+form {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: light;
+	float: left;
+	padding-left: 20px;
+}
+
+.contactpara {
+	padding-left: 20px;
+}
+
+input[name=myName]{
+	width: 260px;
+	height: 25px;
+}
+
+input[name=myEmail]{
+	width: 530px;
+	height: 25px;
+}
+
+input[name=mySubject]{
+	width: 530px;
+	height: 25px;
+}
+
+input[name=myMessage]{
+	width: 530px;
+	height: 25px;
+}
+
+.formtext {
+	font-size: 20%;
+	font-weight: light;
+}
+
+.formtext2 {
+	font-size: 20%;
+	font-weight: light;
+	padding-left: 272px;
+	margin-top: -11px;
+}
+
+.contactbox {
+	margin: auto;
+}
+
+.map {
+	float: right;
+	padding-right: 60px;
+	padding-bottom: 60px;
+}
+
+.maptext {
+	float: right;
+	font-size: 80%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: light;
+	padding-right: 85px;
+	padding-bottom: 35px;
+	margin: -20px;
+}
+
+hr {
+	width: 245px;
+}
+
+.productheader {
+	font-size: 25px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #000;
+	font-weight: 900;
+	padding-top: 65px;
+}
+
+.pinksub {
+	color: #F6B1CF;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+.para {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+.rectangle {
+	height: 40px;
+	width: 125px;
+	background-color: #000;
+	align-items: center;
+	padding-left: 22px;
+	color: #fff;
+	display: flex;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+
+}
+
+.sw1 {
+	height: 40px;
+	width: 40px;
+	background-color: #953864;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw2 {
+	height: 40px;
+	width: 40px;
+	background-color: #BE86A0;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw3 {
+	height: 40px;
+	width: 40px;
+	background-color: #ED4681;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw4 {
+	height: 40px;
+	width: 40px;
+	background-color: #EB2227;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw5 {
+	height: 40px;
+	width: 40px;
+	background-color: #A22037;
+	float: left;
+}
+
+.sw6 {
+	height: 40px;
+	width: 40px;
+	background-color: #D1BEB8;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw7 {
+	height: 40px;
+	width: 40px;
+	background-color: #B89F78;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw8 {
+	height: 40px;
+	width: 40px;
+	background-color: #B99E62;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw9 {
+	height: 40px;
+	width: 40px;
+	background-color: #8C6832;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw10 {
+	height: 40px;
+	width: 40px;
+	background-color: #7B6442;
+	float: left;
+}
+
+nav {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	padding-top: 65px;
+	margin-left: 328px;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	font-size: 100%;
+	font-weight: lighter;
+	padding: 35px;
+	display: inline-block;
+	color: #000
+}
+
+nav ul{
+	list-style-type: none;
+	margin-right: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li + li:before{
+    content: " | ";
+    padding: 0 10px;
+	color: #F6B1CF;
+}
+
+nav a:hover {
+	color: #F6B1CF;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 0px;
+}
+
+.woman1 {
+	padding-top: 10px;
+}
+
+.hand {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.lips {
+	float: right;
+	margin-top: 18px;
+}
+
+.productimage {
+	float: left;
+}
+
+.productimage2 {
+	float: left;
+	margin-top: -170px;
+	margin-bottom: 40px;
+}
+
+.menu-container {
+  float: left;
+}
+
+.menuli {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	font-size: 100%;
+	background-color: #eee;
+	border: 3px solid #fff;
+	width: 200px;
+	padding: 15px;
+	padding-left: 20px;
+	color: #000;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.menuli a:link {
+	color: #000;
+}
+
+.menuli a:visited {
+  color: #000;
+}
+
+.menuli a:hover {
+	color: #F6B1CF;
+	text-decoration: none;
+}
+
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 70px;
+	padding-bottom: 75px;
+}
+
+.flex-container < div {
+text-align: center;
+}
+
+.perfume {
+padding-top: 75px;
+	padding-bottom: px;
+}
+
+.perfume2 {
+	
+}
+.about {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+padding-top: 35px;
+}
+
+.group{
+	float: right;
+	margin-top: -55px;
+}
+
+.aboutpara {
+	float: left;
+	padding-left: 20px;
+	width: 470px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+.line1 {
+	margin-left: -470px;
+	margin-top: 100px;
+	float: left;
+	
+}
+
+.line2 {
+	margin-left: -470px;
+	margin-top: 350px;
+	float: left;
+	
+}
+
+.video {
+	float: right;
+	margin-top: -55px;
+	padding-bottom: 60px;
+}
+
+.videoheader {
+	margin-top: 500px;
+}
+
+p {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+footer{
+	text-align: center;
+    background: #eee;
+	display: flex;
+	flex-direction: column;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 996px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	margin: auto;
+}
+
+@media only screen and (max-width: 37.5em) {
+	
+	.logo {
+	margin: auto;
+		height: 100%;
+		width: 100%;
+	
+}
+	nav li + li:before{
+    content: none;
+}
+	nav {
+		margin: auto;
+	}
+	
+	nav a {
+		height: 100%;
+		width: 100%;
+		background-color: #F6B1CF;
+		color: #fff;
+		border-style: solid;
+		border-color: #fff;
+		text-align: center;
+	}
+	
+	nav a:hover {
+		color: #000;
+	}
+	
+	.subheader {
+		margin: auto;
+		height: 100%;
+		width: 100%;
+		font-size: 100%;
+	}
+	
+	.subheader0 {
+		margin: auto;
+		height: 100%;
+		width:100%;
+		font-size: 100%;
+	}
+	
+	.menu-container {
+		margin: 0;
+		width:100%;
+	}
+	
+	.aboutpara {
+		margin:auto;
+	}
+	
+	h1 {
+		margin-top: 20px;
+	}
+	
+	.productimage {
+		height: 100%;
+		width:100%;
+		margin: auto;
+	}
+	
+	.productheader {
+		text-align: center;
+		margin: auto;
+	}
+	
+	.pinksub {
+		text-align: center;
+	}
+	
+	.para {
+		margin: auto;
+	}
+	
+	.rectangle {
+		margin: auto;
+	}
+	
+	.group {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		height: 100%;
+		width:100%;
+	}
+	
+	.video {
+		margin-top: 30px;
+		height: 100%;
+		width:100%;
+	}
+	
+	menu li {
+		margin: auto;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.maptext {
+		margin: auto;
+	}
+	
+	.map {
+		margin: auto;
+	}
+	
+	footer {
+		padding: 0.5em;
+		margin: 0;
+		width:100%;
+	}
+	
+	.woman1 {
+		height: 100%;
+		width: 100%;
+	}
+
+	.hand {
+		height: 100%;
+		width: 100%;
+	}
+	
+	#mobile {
+		display: inline;
+	}
+	
+	#desktop {
+		display: none;
+}
+}
+
