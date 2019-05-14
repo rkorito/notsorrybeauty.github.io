@@ -121,8 +121,8 @@ input[name=myMessage]{
 	height: 25px;
 }
 
-input[name=submit]{
-padding-top: 40px;	
+input[type=submit]{
+padding-bottom: 40px;	
 }
 
 .formtext {
