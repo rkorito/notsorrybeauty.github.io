@@ -139,7 +139,7 @@ input[name=myMessage]{
 
 .map {
 	float: right;
-	padding-right: 40px;
+	padding-right: 60px;
 	padding-bottom: 60px;
 }
 
@@ -148,7 +148,7 @@ input[name=myMessage]{
 	font-size: 80%;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: light;
-	padding-right: 85px;
+	
 	padding-bottom: 35px;
 	margin: -20px;
 }
