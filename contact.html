@@ -4,6 +4,10 @@
 <title>Contact</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Not Sorry Cosmetics contact page. Contact us about any inqury you may have.">
 </head>
 
 <body>
@@ -21,9 +25,9 @@
 <img class="logo" src="NSC Logo.jpg" width="297" height="176" alt="logo"/></a>
 <nav>
 	<ul>
-        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="new.html">NEW</a></li>
+		<li><a href="products.html">PRODUCTS</a></li>
 		<li> <a href="about.html">ABOUT</a></li>
-        <li><a href="misson.html">MISSION</a></li>
 		<li> <a href="contact.html">CONTACT</a></li>
     </ul>
 </nav>
@@ -31,43 +35,65 @@
 
 <main>
 <div class="contactbox">
-<h1>Contact "Not Sorry Beauty"</h1>
-<p>Required information is marked with an asterisk *.</p>
+	<h1>Contact <font color="#F6B1CF">Us</font></h1>
+	<div class="contactpara"><p>Required information is marked with an asterisk *.</p></div>
 
-<form method="post" action="http://webdevbasics.net/scripts/yoga.php">
+<form action="http://www.formbuddy.com/cgi-bin/form.pl" method="post"> 
+<input type="hidden" name="rkorito" value="RKORITO"> 
+<input type="hidden" name="reqd" value="1,2,3,4"> 
+<input type="hidden" name="url" value="https://notsorrybeauty.github.io/main/index.html">
+<input type="hidden" name="formsubject" value="Contact Inqury">
 
 	<div>
-<label for="myName">* Name:</label>
+<label for="myName">Name*</label> <br>
+
 <input type="text" name="myName" id="myName" required="required">
+		
+<input type="text" name="myName" id="myName" required="required"><br>
+		<div class="formtext">First Name</div> <div class="formtext2">Last Name</div>
 </div>
 
+	<br>
+	
 	<div>
-<label for="myEmail">* Email:</label>
+<label for="myEmail">Email Address* </label> <br>
 <input type="text" name="myEmail" id="myEmail" required="required">
 </div>
 
+<br>
 	<div>
-	<label for="info">How did you hear about us?</label>
-<input type="text" name="info" id="info" list="options">
-
-<datalist id="options">
-<option>Google</option>
-<option>Bing</option>
-<option>Facebook</option>
-<option>Friend</option>
-<option>Radio Ad</option>
-</datalist>
-	</div>
-
-	<div>
-	<label for="myComments">* Comments:</label>
-<textarea name="cm" id="cm" cols="20" rows="2" required="required">Enter comments</textarea></label>
-<input type="submit" value="Send Now">
+	<label for="mySubject">Subject*</label><br>
+	<input type="text" name="mySubject" id="mySubject" required="required"><br><br>
+	
+	<label for="myMessage">Message*</label><br>
+<textarea name="cm" id="cm" cols="64" rows="4" required="required"></textarea></label><br>
+<input type="submit" value="Submit">
 	</div>
 </form>
 </div>
+	<div class="maptext">
+	NOT SORRY COSMETICS<br>
+	1200 PARKER AVE<br>
+	LOS ANGELES, CS 90001<br><br>
+	<font color="#F6B1CF">T</font> (555) 555-3000<br>
+	<font color="#F6B1CF">F</font> (555) 555-5151 <br><br>
+		<hr>
+	</div>
+<img class="map" src="Map.jpg" width="251.64" height="380.52" alt="map"/>	
+
 </main>
 
 </div>
+	
+<footer class="footer">
+
+	<div class="icons"><a href="#" class="fa fa-facebook"></a>
+	<a href="#" class="fa fa-twitter"></a>
+	<a href="https://www.instagram.com/notsorrycosmetics/" class="fa fa-instagram"></a></div>
+	
+	<div class="copyright">&copy; 2019 Not Sorry Cosmetics</div>
+	<a href="mailto:notsorrycosmetics@gmail.com" class="link">notsorrycosmetics@gmail.com</a>
+
+		</footer>
 </body>
 </html>
